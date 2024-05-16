@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raptor</title>
+    <link rel="stylesheet" href="./assets/style/common.css">
+    <!--Css file-->
+    <link rel="stylesheet" href="./assets/style/styles.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    <!--Responsive-->
+    <link rel="stylesheet" href="./assets/style/responsive.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Slider-->
+
+</head>
+<body>
+    <div class="main--class"> 
+        <div class="mobile-container">
+      <nav class="navbar">
+      <div class="container flex space-between container-1 sticky">
+
+        <!-- Main Navbar -->
+
+        <div class="logo">
+          <a href="index.html" class=" pd-1 justify--center underline--none f-20 ">Raptor.</a>
+        </div>
+        <ul class="nevbar-wrapper flex gap-20 ">
+            <li class="list--style"><a href="#" class="underline--none menu-items">Home</a></li>
+            <li class="list--style"><a href="#" class="underline--none menu-items">About</a></li>
+            <li class="list--style"><a href="#" class="underline--none menu-items">Domain</a></li>
+            <li class="list--style"><a href="#" class="underline--none menu-items">Hosting</a></li>
+            <li class="list--style"><a href="#" class="underline--none menu-items">Blog</a></li>
+            <li class="list--style"><a href="#" class="underline--none menu-items">Contact</a></li>
+            <button class=" button-1 underline--none menu-items cursor" type="button">Get Started</button>
+            </ul>
+          </div>
+
+          <!-- toggle navbar -->
+
+              <div id="navbar" class=" flex justify--contain">
+                <div class="logo">
+                    <a href="index.html" class=" pd-1 justify--center space-between underline--none f-20 ">Raptor.</a>
+                  </div>
+                  <ul class="nevbar-wrapper-1 flex gap-20 ">
+                      <li class="list--style"><a href="#" class="underline--none menu-items">Home</a></li>
+                      <li class="list--style"><a href="#" class="underline--none menu-items">About</a></li>
+                      <li class="list--style"><a href="#" class="underline--none menu-items">Domain</a></li>
+                      <li class="list--style"><a href="#" class="underline--none menu-items">Hosting</a></li>
+                      <li class="list--style"><a href="#" class="underline--none menu-items">Blog</a></li>
+                      <li class="list--style"><a href="#" class="underline--none menu-items">Contact</a></li>
+                      <button class=" butto underline--none menu-items cursor" id="button-scroll">Get Started</button>
+                      </ul>
+            </div>
+
+          <!-- mobile navbar -->
+
+          <div id="myLinks">
+            <ul class="element flex  gap-20 ">
+              <li class="list--style"><a href="#" class="underline--none menu-items">Home</a></li>
+              <li class="list--style"><a href="#" class="underline--none menu-items">About</a></li>
+              <li class="list--style"><a href="#" class="underline--none menu-items">Domain</a></li>
+              <li class="list--style"><a href="#" class="underline--none menu-items">Hosting</a></li>
+              <li class="list--style"><a href="#" class="underline--none menu-items">Blog</a></li>
+              <li class="list--style"><a href="#" class="underline--none menu-items">Contact</a></li>
+              <li class="list--style"><button class=" button-1 underline--none menu-items" type="button">Get Started</button></li>
+              </ul>
+              <div id="navbar">
+                <a class="active" href="javascript:void(0)">Home</a>
+                <a href="javascript:void(0)">News</a>
+                <a href="javascript:void(0)">Contact</a>
+              </div>
+          </div>
+          <div class="nav-icon">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars "></i>
+            </a>
+        </div>
+        </div>
+    </nav>  
+    <!-- hero section -->
+  <div class="hero-wrapper flex space-between">
+    <div class="container-2 ">
+      <div class="intro-1">
+          <div class="intro flex gap-20">
+            <div><h1 class="main-title font-size-44 ">Design. Development. Hosting.</h1></div>  
+            <div>  <p class="description">A small river named Duden flows by their  place and supplies it with the necessary  regelialia.</p></div>
+      
+                <div class="btn"><button class="button underline--none" type="button">Get started</button></div>
+          
+
+          
+          </div>
+      </div>
+      <div class="dashborad-image">
+        <img src="./assets/images/header-mobile.png" class="item" alt="header-mobile">
+      </div>  
+    </div>
+  </div>
+  </div>
+
+
+    <!-- Domain Section -->
+
+
+    <section class="ftco-section ">
+    <div class="container">
+        <div class="row-section justify--center  ">
+            <div class="col-section text-align-center ">
+                <span class="domain-subheading">Get domain</span>
+                <h2 class="domain-heading ">Get A Domain Name</h2>
+                <p class="domain-sec-para ">With FREE Email, DNS, Theft Protection, and other features</p>
+            </div>
+        </div>
+      <div class="row-section justify--center flex ">
+        <div class="col-section">
+            <form action="#" class="domain-form">
+            <div class="domain-form-info ">
+            <input type="text" class="domain-enter" placeholder="Enter your domain name...">
+            <input type="submit" class="search-domain cursor " value="Search Domain">
+            </div>
+            </form>
+            <p class="domain--section "><span><small>.com</small>9.75</span> <span><small>.net</small>9.90</span> <span><small>.biz</small>$8.95</span> <span><small>.me</small>$7.95</span></p>
+      
+          </div>
+      </div>  
+    </div>
+    </section> 
+
+    <!-- Service Section -->
+
+  <section class=" services-section">
+    <div class="container">
+      <div class="section-title">
+        <span class="subheading-services-section">Services</span>
+        <h2 class="header-service-section text-align-center">Why choose us</h2>
+      </div>
+
+    <div class="row-princing flex">
+      <div class="gurantee-section">
+        <div class="dashborad-image-1 text-align-center ">
+          <img src="./assets/images/guraantee.png" class="service-section-uptime-Guarantee" alt="uptime Guarantee">
+        </div>
+        <div class="gurantee--section text-align-center">
+          <h3 class="header-uptime-gurantee header-section-color ">100% Uptime Guarantee</h3>
+        <p class="para-gurantee-section service--section">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        </div>
+        
+      </div>
+       
+      <div class="fact-safe-section">
+        <div class="dashborad-image-2 text-align-center">
+          <img src="./assets/images/safe.png" class="service-section-safe" alt="safe">
+        </div>
+        <div class="safe--section text-align-center">
+          <h3 class="header-safe header-section-color">Safe and Secured</h3>
+          <p class="para-safe-section service--section">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        </div>
+      </div>
+      
+      <div class="fact-support-section">
+        <div class="dashborad-image-3 text-align-center">
+          <img src="./assets/images/support.png" class="sevices-section-support" alt="support">
+        </div>
+        <div class="support--section text-align-center">
+          <h3 class="header-support header-section-color">Our Dedicated Support</h3>
+          <p class="para-support-section service--section">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!----- pricing plan section ----->
+
+  <section class="pricing-section ">
+    <div class="container ">
+      <span class="subheading-services-section">Pricing Plans</span>
+      <h2 class="header-service-section text-align-center">Our Best Pricing</h2>
+      <div class="row-princing flex ">
+        <div class="col-pricing">
+          <div class="block-container">
+            <div class="text-center text-align-center">
+              <h2 class="heading-section-princing">Free</h2>
+              <span class="price"><sup>$</sup> <span class="number">0</span></span>
+              <span class="pricing-para">100% free. Forever</span>
+              <button class="btn-container"><a href="#" class="pricing-btn">Get Started</a></button>
+              <h3 class="heading--para">Enjoy All The Features</h3>
+              <ul class="pricing-text">
+                <li id="li"><strong class="strong">150 GB</strong> Bandwidth</li>
+                <li id="li"><strong class="strong">100 GB</strong> Storage</li>
+                <li id="li"><strong class="strong">$1.00 / GB</strong> Overages</li>
+                <li id="li">All features</li>
+              </ul>
+            </div>  
+          </div>
+        </div>
+        <div class="col-pricing">
+          <div class="block-container">
+            <div class="text-center text-align-center">
+              <h2 class="heading-section-princing">Startup</h2>
+              <span class="price"><sup>$</sup> <span class="number">19</span></span>
+              <span class="pricing-para">All features are included</span>
+              <button class="btn-container"><a href="#" class="pricing-btn">Get Started</a></button>
+              <h3 class="heading--para">Enjoy All The Features</h3>
+              <ul class="pricing-text">
+                <li id="li"><strong class="strong">450 GB</strong> Bandwidth</li>
+                <li id="li"><strong class="strong">450 GB</strong> Storage</li>
+                <li id="li"><strong class="strong">$2.00 / GB</strong> Overages</li>
+                <li id="li">All features</li>
+              </ul>
+            </div>    
+          </div>
+        </div>
+        <div class="col-pricing">
+          <div class="block-container">
+            <div class="text-center text-align-center">
+              <h2 class="heading-section-princing">Premium</h2>
+              <span class="price"><sup>$</sup> <span class="number">49</span></span>
+              <span class="pricing-para">All features are included</span>
+              <button class="btn-container"><a href="#" class="pricing-btn">Get Started</a></button>
+              <h3 class="heading--para">Enjoy All The Features</h3>
+              <ul class="pricing-text">
+                <li id="li"><strong class="strong">250 GB</strong> Bandwidth</li>
+                <li id="li"><strong class="strong">200 GB</strong> Storage</li>
+                <li id="li"><strong class="strong">$5.00 / GB</strong> Overages</li>
+                <li id="li">All features</li>
+              </ul>
+            </div>  
+          </div>
+        </div>
+        <div class="col-pricing">
+          <div class="block-container">
+            <div class="text-center text-align-center">
+              <h2 class="heading-section-princing">Pro</h2>
+              <span class="price"><sup>$</sup> <span class="number">99</span></span>
+              <span class="pricing-para">All features are included</span>
+              <button class="btn-container"><a href="#" class="pricing-btn">Get Started</a></button>
+              <h3 class="heading--para">Enjoy All The Features</h3>
+              <ul class="pricing-text">
+                <li id="li"><strong class="strong">450 GB</strong> Bandwidth</li>
+                <li id="li"><strong class="strong">400 GB</strong> Storage</li>
+                <li id="li"><strong class="strong">$20.00 / GB</strong> Overages</li>
+                <li id="li-para">All features</li>
+              </ul>
+            </div>  
+          </div>
+        </div>  
+      </div>
+    </div>
+  </section>
+
+  <!-- Section counter -->
+  <section class="section-counter section-counter--image">
+      <div class="container">
+        <div class="row-counter">
+          <div class="col-counter">
+            <h2 class="heading-counter">Some fun facts</h2>
+            <span class="subheading-counter">More than 100,000 websites hosted</span>
+          </div>
+        </div>
+        <div class="row-counter-main">
+            <div class="row--main">
+              <div class="col-main">
+                <strong class="number" data-number="2000">2,000</strong>
+                <span class="counter-section-para">CMS Installation</span>
+              </div>
+              <div class="col-main">
+                <strong class="number" data-number="100">100</strong>
+                <span class="counter-section-para">Awards Won</span>
+              </div>
+              <div class="col-main">
+                <strong class="number" data-number="32000">32,000</strong>
+                <span class="counter-section-para">Registered Domains</span>
+              </div>
+              <div class="col-main">
+                <strong class="number" data-number="31998">31,998</strong>
+                <span class="counter-section-para">Satisfied Customers</span>
+              </div>
+
+            </div>
+        </div>
+      </div>
+  </section>
+
+
+  <!-----Customer section ------>
+
+  <section class="customer-section">
+    <div class="container">
+      <div class="row-customer-section flex">
+        <div class="col-customer-section">
+            <span class="subheading-customer-section">Customer Says</span>
+            <h2 class="heading-customer-section">Our satisfied customer says</h2> 
+            <p class="customer-section-para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+        </div>
+      </div>    
+        <div class="row-customer-section-user flex">
+          <div class="col-customer-section-user ">
+            <!-- <div class="item-customer-section--main--class"> -->
+              <div class="slick-carousel flex ">
+              <!-- <div class="slicky-slider-arrows">
+                <button class="fa fa-angle-left"></button>
+              </div> -->
+              <div class="swiper mySwiper flex" pagination="true" >
+                <div class="swiper-slide" > 
+                  <div class="customer-wrap">
+                    <div class="customer-imgage">
+                      <img class="customer-image-user" src="/assets/images/Person_1.jpg" alt=person-1>
+                    </div>
+                    <div id="customer-fafaicon">
+                      <i class="fa fa-quote-left flex justify--center" ></i>
+                    </div>
+                    <div class="text-customer-section">
+                      <p class="customer-section-para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                      <p class="customer-section-heading">Dennis Green</p>
+                      <span class="customer-section-subheading">Marketing Manager</span>
+                    </div>
+                  </div>
+                </div >
+                <div class="swiper-slide"><div class="customer-wrap">
+                  <img class="customer-image-user" src="/assets/images/Person_1.jpg" alt=person-1>
+                  <div id="customer-fafaicon">
+                    <i class="fa fa-quote-left flex justify--center" ></i>
+                  </div>
+                  <div class="text-customer-section">
+                    <p class="customer-section-para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="customer-section-heading">Dennis Green</p>
+                    <span class="customer-section-subheading">Marketing Manager</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide"><div class="customer-wrap">
+                <img class="customer-image-user" src="/assets/images/Person_1.jpg" alt=person-1>
+                <div id="customer-fafaicon">
+                  <i class="fa fa-quote-left flex justify--center" ></i>
+                </div>
+                <div class="text-customer-section">
+                  <p class="customer-section-para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  <p class="customer-section-heading">Dennis Green</p>
+                  <span class="customer-section-subheading">Marketing Manager</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>   
+              <!-- <div class="slicky-slider-arrows">
+                <button class="fa fa-angle-right"></button>
+              </div> -->
+            </div> 
+              <!-- <div class="slicky-slider--dots flex justify--center">
+                <button class="dots"></button>
+                <button class="dots"></button>
+                <button class="dots"></button>
+                <button class="dots"></button>
+                <button class="dots"></button>
+              </div> --->
+          </div>
+        </div>
+        </div>
+    </div>
+  </section>
+
+    <!---host section -->
+
+    <section class="host-section">
+      <div class="container">
+        <div class="hosts-row">
+          <div class="hosts-column">
+            <span class="hosts-subheading">Services</span>
+            <h2 class="hosts-heading">How it works</h2>
+          </div>
+        </div>
+        <div class="row-host-section">
+          <div class="column-hosts-section">
+            <div class="hosts-button flex justify--center">
+              <button class="vps-button-hosts">Next gen VPS</button>
+              <button class="vps-button-hosts">Performance</button>
+              <button class="vps-button-hosts">Effectiveness</button>
+            </div>
+          </div>
+          <div class="col-hosts-img">
+            <div class="hosts-section-wrapper flex">
+              <div class="hosts-img-wrap">
+                <img class="hosts-img" src="/assets/images/hosts.jpg" alt=host-img>
+              </div>
+              <div class="hosts-section-text">
+                <h2 class="header-hosts">Next gen VPS hosting</h2>
+                <p class="text-hosts">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                <p class="text-hosts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    <!---- News Letter -->
+  <section class="news-letter-section img-news-letter">
+    <div class="container">
+      <div class="row-news-letter">
+        <div class="colum-news-letter">
+          <h2 class="news-letter-header">Subcribe to our Newsletter</h2>
+          <p class="news-letter-para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+          <div class="row-news-letter-wrap">
+            <div class="colum-news-letter-wrap">
+              <form action="#" class="subscribe-form-news-letter">
+                <div class="form-group-news-letter">
+                  <i class="fa-sharp fa-solid fa-paper-plane" id="fa-fa-button-news-letter"></i>
+                  <input type="text" class="form-control-news-letter" placeholder="Enter email address">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----Blog Section---->
+
+  <section class="blog-section">
+    <div class="container">
+      <div class="row-blog">
+        <div class="col-blog">
+          <span class="subheading-blog">Blog</span>
+          <h2 class="heading-blog">Recent Blog</h2>
+          <p class="blog-para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+        </div>
+      </div>
+      <div class="row-blog-wrap">
+        <div class="col-blog-wrap">
+          <div class="blog-entry">
+            <img class="blog-img" src="./assets/images/blog-section_1.jpg" alt="blog-section-1">
+          </div>
+          <div class="blog-text">
+            <div class="meta-data-blog">
+              <div class="blog-item">August 12, 2018</div>
+              <div class="blog-item">Admin</div>
+              <i class="fas fa-comment-dots" id="icon-chat-blog blog-item"></i>
+              <a class="blog-item">3</a>
+            </div>
+            <h3 class="heading-blog">Even the all-powerful Pointing has no control about the blind texts</h3>
+          </div>
+        </div>
+        <div class="col-blog-wrap">
+          <div class="blog-entry">
+            <img class="blog-img" src="./assets/images/blog-section_2.jpg" alt="blog-section-1">
+          </div>
+          <div class="blog-text">
+            <div class="meta-data-blog">
+              <div class="blog-item">August 12, 2018</div>
+              <div class="blog-item">Admin</div>
+              <i class="fas fa-comment-dots" id="icon-chat-blog blog-item"></i>
+              <a class="blog-item">3</a>
+            </div>
+            <h3 class="heading-blog">Even the all-powerful Pointing has no control about the blind texts</h3>
+          </div>
+        </div>
+        <div class="col-blog-wrap">
+          <div class="blog-entry">
+            <img class="blog-img" src="./assets/images/blog-section_3.jpg" alt="blog-section-1">
+          </div>
+          <div class="blog-text">
+            <div class="meta-data-blog">
+              <div class="blog-item">August 12, 2018</div>
+              <div class="blog-item">Admin</div>
+              <i class="fas fa-comment-dots" id="icon-chat-blog blog-item"></i>
+              <a class="blog-item">3</a>
+            </div>
+            <h3 class="heading-blog">Even the all-powerful Pointing has no control about the blind texts</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!----Footer----->
+
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-column">
+          <div class="footer-wrapper">
+            <h2 class="footer-heading">Raptor</h2>
+            <p class="footer-para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <button class="footer-button underline--none" type="button">Get in touch</button>
+          </div>  
+        </div>
+        <div class="footer-column">
+          <div class="footer-wrapper-list">
+            <h2 class="footer-heading">Unseful Links</h2> 
+            <ul class="footer-list">
+            <li class="footer-links-list">Servers</li>
+            <li class="footer-links-list">Windos Hosting</li>
+            <li class="footer-links-list">Cloud Hosting</li>
+            <li class="footer-links-list">OS Servers</li>
+            <li class="footer-links-list">Linux Servers</li>  
+            <li class="footer-links-list">Policy</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-column">
+          <div class="footer-wrapper-list">
+            <h2 class="footer-heading">Navigational</h2>
+            <ul class="footer-list">
+            <li class="footer-links-list">Home</li>
+            <li class="footer-links-list">Domain</li>
+            <li class="footer-links-list">Hosting</li>
+            <li class="footer-links-list">About</li>
+            <li class="footer-links-list">Blog</li>
+            <li class="footer-links-list">Contact</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-column">
+          <div class="footer-wrapper">
+            <div class="footer-details">
+              <ul class="footer-infomation"> 
+              <li class="footer-info"><span class="footer-rator-location fa-solid fa-location-dot"></span>
+              <span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span>
+              </li>
+              <li class="footer-info"><span class="footer-raptor-contact-number fa-solid fa-phone"></span>
+              <span class="text">+2 392 3929 210</span>
+              </li>
+              <li class="footer-info"><span class="footer-employee-details fa-solid fa-envelope"></span>
+              <span class="text"><span class="__cf_email__" data-cfemail="167f787079566f79636472797b777f783875797b">[email&#160;protected]</span></span>
+              </li>
+              <li class="footer-info"><span class="footer-raptor-timing fa-regular fa-clock"></span>
+              <span class="text">Saturday &mdash; Sunday 8:00am - 5:00pm</span>
+              </li>
+              </ul>
+            </div>
+              <ul class="footer-social-media">
+              <li class="fa fa-twitter fa-2x footer-animate"></li>
+              <li class="fa fa-facebook-f fa-2x footer-animate"></li>
+              <li class="fa fa-instagram fa-2x footer-animate"></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-wrap ">
+        <div class="footer-col-wrap">
+          <p class="footer-para-wrap">Copyright ©2024 All rights reserved | This template is made with  <i class="fa fa-heart"></i>  by Colorlib</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Script File -->
+
+  <script src="/assets/js/script.js"></script>
+</html>
